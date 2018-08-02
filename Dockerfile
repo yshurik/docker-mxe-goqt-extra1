@@ -2,7 +2,7 @@ FROM yshurik/mxe-goqt:windows_64_shared
 MAINTAINER yshurik <yshurik@gmail.com>
 
 WORKDIR /mxe
-RUN echo mark2
+RUN echo mark3
 RUN git branch -a
 RUN git pull
 RUN git checkout gpgme
