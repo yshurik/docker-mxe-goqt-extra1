@@ -9,4 +9,4 @@ RUN git checkout gpgme
 RUN export
 RUN make MXE_TARGETS="$TARGETS" gpgme
 RUN make MXE_TARGETS="$TARGETS" openal
-
+RUN make MXE_TARGETS="$TARGETS" miniupnpc
