@@ -10,3 +10,7 @@ RUN export
 RUN make MXE_TARGETS="$TARGETS" gpgme
 RUN make MXE_TARGETS="$TARGETS" openal
 RUN make MXE_TARGETS="$TARGETS" miniupnpc
+RUN echo mark1
+RUN git pull
+RUN git checkout db4
+RUN make MXE_TARGETS="$TARGETS" db4
